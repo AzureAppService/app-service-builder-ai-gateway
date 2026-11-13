@@ -1,5 +1,8 @@
 # Connect a Python agent through an AI gateway
 
+Fork the [canonical sample](https://github.com/AzureAppService/app-service-builder-ai-gateway) into your GitHub account.
+This integration is not in the Portal template gallery; follow the manual gateway, model and app setup below.
+
 Use a Python web app on App Service Builder to stream answers from a model
 through a dedicated Azure AI Gateway. Microsoft Agent Framework uses managed
 identity to call the gateway; the gateway uses its identity to call the model.
