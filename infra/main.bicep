@@ -118,7 +118,7 @@ resource app 'Microsoft.Web/builderApps@2026-09-01-preview' = {
 
 resource auth 'Microsoft.Web/builderApps/authConfigs@2026-09-01-preview' = {
   parent: app
-  name: 'current'
+  name: 'default'
   properties: {
     mode: 'disabled'
   }
